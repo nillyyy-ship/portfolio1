@@ -1,0 +1,90 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+	-webkit-text-stroke: 1px black;
+	font-size: 50px;
+	
+}
+
+
+   .topbar {
+            background-color: #FFB6C1;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+			font-weight: bold;
+			
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #ffffff;
+			font-size: 22px;
+			font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            background-color: #088F8F;
+			
+        } 
+          .picture-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        /* Style for individual picture and text */
+        .picture {
+            flex: space-evenly;
+            margin-right: 100px;
+        }
+
+        /* Style for text container */
+        .text {
+            flex: 2;
+            border-style: double;
+            border-color: #088F8F;
+            border-width: 5px;
+			font-family: Chalkduster, fantasy;
+			text-align: center;
+			
+        }
+		.textTitle{
+			text-align: center	;
+			font-size: 25px;
+			font-family: cursive;
+			font-weight: bold;
+			-webkit-text-stroke: 1px black;
+			font-size: 30px;
+		}
+		.button{
+		text-align: center;}
+			
+		.workExperience {
+			font-family: fantasy;
+		}			
+		.textBigTitle {
+			text-align: center;
+			display: flex;
+		}
+			
+			
+			
+			
+		}
+        .footer{
+         text-align: center;
+         font-family: "Source Sans Pro", sans-serif;
+         font-weight: normal; 
+         background-color: #96DED1;
+        }
